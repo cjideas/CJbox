@@ -1,0 +1,106 @@
+#cjbox-tmp{
+	display: none;
+	margin: 0;
+}
+
+#cjbox-ol{
+	background: #666;
+	opacity:0.7;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top:0;	left:0;
+	z-index: 1100;
+}
+#cjbox-wrap{
+	background: #1187bc;
+	position: fixed;
+	top: 50%;	left: 50%;
+	z-index: 1101;
+
+	width: 90%;
+	margin-left: -45%;
+	height: 80%;
+	margin-top: 0;
+
+	-webkit-box-shadow: 0px -2px 10px #666;
+	-moz-box-shadow: 0px -2px 10px #666;
+	-ms-box-shadow: 0px -2px 10px #666;
+	-o-box-shadow: 0px -2px 10px #666;
+	box-shadow: 0px -2px 10px #666;
+	
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ms-border-radius: 6px;
+	-o-border-radius: 6px;
+	border-radius: 6px;
+}
+#cjbox-bar{
+	height: 30px;
+	line-height: 30px;
+	position: relative;
+}
+#cjbox-bar .title{
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 2px 5px;
+	position: absolute;
+	top:0px; left:5px;
+}
+#cjbox-bar .rightbar{
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+	position: absolute;
+	top:0px; right:5px;
+	z-index: 1020;
+}
+#cjbox-bar .rightbar .btn{
+	float:left;
+	margin-left: 5px;
+	height: 20px; min-width: 20px;
+}
+#cjbox-outer{
+	background: #fff;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	-webkit-box-shadow: 0px 2px 10px #666;
+	-moz-box-shadow: 0px 2px 10px #666;
+	-ms-box-shadow: 0px 2px 10px #666;
+	-o-box-shadow: 0px 2px 10px #666;
+	box-shadow: 0px 2px 10px #666;
+}
+#cjbox-inter{
+	padding: 10px;
+	margin:0;
+	position: relative;
+	overflow: hidden;
+	z-index: 1102;
+}
+#cjbox-notice{
+	float: left;
+	margin: 0 5px;
+	padding: 0 10px;
+	height: 30px;
+	min-width: 100px;
+	background: #EEE;
+	color: #333;
+	font-size: 12px;
+	text-align: center;
+/*
+	z-index: 1201;
+	position: fixed;
+	top: 20px;	left: 50%;
+	margin-left: -150px;
+	margin-top: 0;
+
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ms-border-radius: 6px;
+	-o-border-radius: 6px;
+	border-radius: 6px;
+*/
+}
